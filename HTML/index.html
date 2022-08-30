@@ -1,96 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <title>Web</title>
-    <style>
-        table, th, td {
-            border: 1px solid black
-        }
-    </style>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Comentario jaja lol
-        funciona con salto de linea
-    -->
-    <h1>Header 1</h1>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
-    <h4>Header 4</h4>
-    <h5>Header 5</h5>
-    <h6>Header 6</h6>
-    <hr>
-    <h2>Header 2</h2>
-    <p>Parrafo ojo chaval</p>
-    <p>Esto es otro parrafo estoy asi ira :o</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br><span style="color:red">Id explicabo quam cum eaque necessitatibus tenetur vel.</span></p>
-    <a target="_blank" href="https://www.facebook.com/">Link a Feisbu</a>
-    <img src="img/img.png" width="50">
-    <hr>
-    <form action="/formulario" method="get">
-        <label for="nombre">Nombre</label>
-        <input value="Default" type="text" id="nombre" name="nombre" placeholder="Ingrese nombre...">
-        <br>
-        <label for="Apellido">Apellido</label>
-        <input value="Default" type="text" id="apellido" name="apellido" placeholder="Ingrese apellido...">
-        <br>
-        <label for="comentario">Comentario</label>
-        <textarea cols="40" rows="5" id="comentario" name="comentario" placeholder="Ingrese comentario...">Default</textarea>
-        <br>
-        <button type="button"><img src="img/img.png" width="32"> Tipo button</button>
-        <button type="reset">Tipo reset</button>
-        <button type="submit">Tipo submit</button>
-    </form>
-    <hr>
-    <h2>Lista desordenada</h2>
-    <!--ul es lista no ordenada-->
-    <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-    </ul>
-    <hr>
-    <h2>Lista ordenada</h2>
-    <!--ol es lista ordenada-->
-    <ol>
-        <li value="10">Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>
-            <ol>
-                <li style="list-style-type:lower-alpha">Sub elemento 1</li>
-                <li style="list-style-type:lower-alpha">Sub elemento 2</li>
-                <li style="list-style-type:lower-alpha">Sub elemento 3</li>
-            </ol>
-        </li>
-    </ol>
-    <hr>
-    <table style="width: 500px;">
-        <thead>
-            <tr>
-                <th>Precio</th>
-                <th>Producto</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>$20</td>
-                <td>Gansito</td>
-            </tr>
-            <tr>
-                <td>$12</td>
-                <td>Papas</td>
-            </tr>
-            <tr>
-                <td>$948289383892</td>
-                <td>Un producto con nombre muy largo y un precio muy largo</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td>Total: Infinito</td>
-            <td></td>
-        </tfoot>
-    </table>
+    <header>
+        <h1 id="titulo">Blog de Cabra</h1>
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2>Titulo de post 1</h2>
+            <p>Descripcion de post 1</p>
+            <img src="img/img.png" width="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae, fuga in quos dolor praesentium placeat necessitatibus impedit ut sint repellendus?</p>
+        </article>
+        <article class="post">
+            <h2>Titulo de post 2</h2>
+            <p>Descripcion de post 2</p>
+            <img src="img/img.png" width="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae, fuga in quos dolor praesentium placeat necessitatibus impedit ut sint repellendus?</p>
+        </article>
+        <article class="post">
+            <h2>Titulo de post 3</h2>
+            <p>Descripcion de post 3</p>
+            <img src="img/img.png" width="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae, fuga in quos dolor praesentium placeat necessitatibus impedit ut sint repellendus?</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+            <a href="#titulo">Ir arriba</a>
+            <a href="mailto:zetinaluis03@gmail.com">Correo de contacto</a>
+        </section>
+        <p>Copyright 2022</p>
+    </footer>
 </body>
 </html>
